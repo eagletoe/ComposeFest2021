@@ -84,3 +84,7 @@ tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
         ]
     }
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '7.0'
+}
